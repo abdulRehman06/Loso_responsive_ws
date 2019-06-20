@@ -14,7 +14,7 @@
     font-weight: 400;
     text-transform: uppercase;
 }
-.section-title h2:after {
+.section-title h2:after { /* code for Line after heading*/
     content: "";
     position: absolute;
     bottom: -20px;
@@ -34,6 +34,41 @@
     text-align: center;
     margin-top: 45px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -126,6 +161,60 @@
 .header-iphone img {
     width: 100%;   
 }
+
+
+/* ==============navigation bar===================== */
+.navbar-default {
+    background-color: transparent;
+    border-bottom: 1px solid #555 ;
+    z-index: 118;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #B5B5B5;
+    font-family: "Raleway", sans-serif;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #129CF3;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: #B5B5B5;
+}
+.navbar-brand {
+    padding: 9px 15px;
+}
+.navbar-brand img  {
+     transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+} 
+.navbar-default .navbar-nav > .active>a, 
+.navbar-default .navbar-nav > .active>a:hover,
+.navbar-default .navbar-nav > .active>a:focus {
+    background-color: transparent;
+    color: #129CF3;
+}  
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ==============About us ====================== */
@@ -376,3 +465,270 @@
      background-color: rgb(17, 49, 70);
      border-color: #316B90;
  }
+
+
+ /* ============= Counter CSS ============== */
+ .counter {
+    background-image: url("../images/counter-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%;
+}
+.counter-overlay {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: rgba(0, 0, 0, .4);
+}
+.counter-item i {
+    color: #129CF3;
+    font-size: 60px;
+}
+.counter-item h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #D7DADB;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+.counter-item p {
+    color: #D7DADB;
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =======================================Download on ===================================================== */
+
+.download img{
+    width: 100%;
+    padding-top: 30;
+    margin-bottom: 30px;
+}
+
+.available-on{
+    background-color: rgb(19, 18, 18);
+    /* padding-top: 90px; */
+}
+.available-on h2{
+padding-top: 50px;
+color: #c9c5c5;
+}
+.available-on p{
+    color: rgb(128, 133, 134);
+}
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.available-on-item {
+    border-left:1px solid #2b2929;
+    min-height: 230px;
+    text-align: center;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+.available-on-item:hover{
+    background-color: #242222;
+}
+
+.available-on-item i {
+    font-size: 50px;
+    position: relative;
+    padding-top: 90px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+}
+
+.available-on-item:hover i {
+opacity: 0;
+}
+
+.available-on-inner {
+    position: absolute;
+    bottom: 93px;
+    width: 100%;
+    opacity: 0;
+     transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+
+}
+.available-on-inner h2{
+    text-align: center;
+    font-weight:  300;
+    color: #D7DADB;
+    font-size: 16px;
+}
+
+.available-on-item:hover  div.available-on-inner{
+    opacity: 1;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+}
+
+
+
+
+/* =======================================Download on ===================================================== */
+
+.contact-us-form .form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    background-color: transparent;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    opacity: .8;
+    outline: 0px !important;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    
+}
+#message {
+    height: 117px;
+    resize: none;
+}
+.submit-btn,
+.submit-btn:active,
+.submit-btn:focus,
+.submit-btn:visited {
+    
+    background-color: transparent;
+    border: 1px solid #129CF3;
+    border-radius: 4px;
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #129CF3;
+    outline: 0px !important;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.submit-btn:hover {
+    background: #129CF3;
+    color: #fff;
+    border-color: #129CF3;
+}
+.social-icons {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    
+}
+.social-icons ul {
+    margin:0;
+    padding: 0;
+    text-align: center;
+    
+}
+.social-icons ul li { 
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+
+.social-icons ul li a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #9d9d9d;
+    border-radius: 3px;
+    width: 45px;
+    height: 45px;
+    line-height: 49px;
+    color: #9d9d9d;
+     transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    
+}
+.social-icons ul li a:hover {
+    
+    background-color: #129CF3;
+    border: 1px solid #129CF3;
+    color: #fff;
+} 
+.social-icons ul li a i {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
